@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.treinaweb.springbootapi.entity.Pessoa;
-import br.com.treinaweb.springbootapi.repository.PessoaRepository;
+import br.com.springcrud.javaspringvscodecrud.entity.Pessoa;
+import br.com.springcrud.javaspringvscodecrud.repository.PessoaRepository;
 
 @RestController
 public class PessoaController {
